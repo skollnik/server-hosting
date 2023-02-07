@@ -1,0 +1,114 @@
+.links a {
+    transition: background-color 0.2s ease-in-out;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #A0C3D2;
+    border: 2px solid #A0C3D2;
+    padding: 4px 12px;
+    border-radius: 6px;
+}
+
+.links a:hover {
+    transition: background-color 0.2s ease-in-out;
+    background-color: #EEE8CE;
+    color: #89B4C6;
+    border-color: #89B4C6;
+}
+
+.select {
+    margin-bottom: 4rem;
+}
+
+.form-select:first-child {
+    width: 20%;
+}
+
+.container {
+    width: 80%;
+}
+
+
+.container .segment {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.container .segment:not(:first-of-type) {
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px #CCCCCC;
+}
+
+.container .segment:first-of-type .segment-part {
+    width: 40%;
+    text-align: center;
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px #CCCCCC;
+}
+
+.container .segment:first-of-type .segment-part input {
+    width: 100%;
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.container .segment input:checked {
+    background-color: #A0C3D2;
+    border-color: #A0C3D2;
+    box-shadow: 0 0 0 0.25rem rgb(160 195 210 / 80%);
+}
+
+.container .segment .form-select:focus {
+    box-shadow: 0 0 0 0.25rem rgb(160 195 210 / 80%);
+}
+
+.container .segment .segment-header {
+    font-weight: 600;
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #CED4DA;
+}
+
+.container .segment span:first-child {
+    color: #99A6B2;
+}
+
+.cart {
+    width:320px;
+    height: max-content;
+    background-color: #EEE8CE;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 5px;
+    box-shadow: -2px 4px 10px #CCCCCC;
+}
+
+.cart p {
+    line-height: 10px;
+}
+
+.cart p:first-child {
+    margin-top: 1rem;
+}
+
+.card-footer {
+    width: 100%;
+}
+
+.btn-primary {
+    width: 35%;
+    background-color: #A0C3D2;
+    border-color: #A0C3D2;
+}
+
+.btn-primary:hover {
+    background-color: #89B4C6;
+    border-color: #89B4C6;
+}

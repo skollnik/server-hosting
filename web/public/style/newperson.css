@@ -1,0 +1,52 @@
+.links a {
+    transition: background-color 0.2s ease-in-out;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #A0C3D2;
+    border: 2px solid #A0C3D2;
+    padding: 4px 12px;
+    border-radius: 6px;
+}
+
+.links a:hover {
+    transition: background-color 0.2s ease-in-out;
+    background-color: #EEE8CE;
+    color: #89B4C6;
+    border-color: #89B4C6;
+}
+
+select {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    width: 40%;
+}
+
+.container select,
+.container form input {
+    margin-bottom: 13px;
+}
+
+.form-select:focus,
+.form-control:focus {
+    border-color: #A0C3D2;
+    box-shadow: 0 0 0 0.25rem rgb(160 195 210 / 80%);
+}
+
+.container form button {
+    width: 100%;
+    background-color: #A0C3D2;
+    border-color: #A0C3D2;
+}
+
+.container form button:hover {
+    transition: background-color 0.2s ease-in-out;
+    background-color: #89B4C6;
+    border-color: #89B4C6;
+}
+
+form:nth-of-type(2) {
+    display: none;
+}

@@ -1,0 +1,47 @@
+td a,
+.links a {
+    transition: background-color 0.2s ease-in-out;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #A0C3D2;
+    border: 2px solid #A0C3D2;
+    padding: 4px 12px;
+    border-radius: 6px;
+}
+
+td a:hover,
+.links a:hover {
+    transition: background-color 0.2s ease-in-out;
+    background-color: #EEE8CE;
+    color: #89B4C6;
+    border-color: #89B4C6;
+}
+
+table {
+    border-radius: 50px;
+    text-align: center;
+}
+
+table th {
+    font-size: 1.4rem;
+    background-color: #EEE8CE;
+}
+
+table td {
+    font-size: 1.3rem;
+}
+
+table tr:nth-of-type(odd) {
+    background-color: #F6F2E0;
+}
+
+table, th, td {
+  border: 1px solid #A0C3D2;
+  border-collapse: collapse;
+}
+
+table th,
+table td{
+    width: 15em;
+    height: 50px;
+}
